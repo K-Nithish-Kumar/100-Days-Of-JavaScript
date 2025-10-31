@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:800vh;
+}
+
+nav{
+    background: #000;
+    height:5vh;
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.sticky-header {
+    position: fixed;
+    top: -100px;
+    width:100%;
+    transition: top 0.3s;
+    z-index: 1000;
+
+}
+
+.sticky-header .visible{
+    top:0;
+}
