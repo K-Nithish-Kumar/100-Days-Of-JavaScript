@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+#snippet{
+    width:30vw;
+    height:30vh;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#copyButton{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    border:none;
+    background-color: rgb(58, 221, 250);
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+
+#copyButton:active{
+    background-color: rgb(91, 255, 91);
+}
